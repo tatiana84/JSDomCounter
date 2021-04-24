@@ -1,0 +1,31 @@
+body {
+    background-image: url("./image.jpg");
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    position: relative;
+    margin-top: 200px;
+}
+
+.counter-minus,
+.counter-plus {
+    background-color: black;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    max-width: 100px;
+    width: 50%;
+
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
